@@ -1,0 +1,87 @@
+
+.card {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: all 0.3s ease;
+} *
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+.card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  /* margin-bottom: 20px; */
+}
+
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.display {
+  width: 300px;
+  height: 250px;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/*  */
+  .card-header {
+    padding: 1px;
+    height: 10px;
+    /* margin-left: 20px; */
+    /* position: relative; */
+    background-color: #ffaf40;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px ;
+  }
+  
+  .header-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Update height to 2px for the border line */
+    background-color: #ffaf40; /* Use #ffaf40 color for the top border line */
+    opacity: 0.8; /* Set opacity for a subtle effect */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .content {
+    margin: 0;
+  }
+  
+  .card-gray {
+    background-color: #ffaf40;
+  }

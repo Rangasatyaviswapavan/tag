@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAG Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.jpg" alt="Company Logo" width="50" height="50">
+		</div>
+		<h1 class="company-name">TAG</h1>
+		<div id="buttons-container">
+			<button id="finviz-btn">Finviz</button>
+			<button id="benzinga-btn">Benzinga</button>
+			<button id="nasdaq-btn">Nasdaq</button>
+			<button id="ibd-btn">IBD</button>
+		</div>
+	</header>    
+
+	<div class="sidebar">
+		<ul>
+            <li><a href="home.html">Home</a></li>
+			<li><a href="trading-accounts.html">Trading Accounts</a></li>
+			<li><a href="subscriptions.html">Subscriptions</a></li>
+			<li><a href="watch-lists.html">Watch Lists</a></li>
+			<li><a href="world-indices.html">World Indices</a></li>
+			<li><a href="sectors.html">Sectors</a></li>
+		</ul>
+	</div>
+    
+    <div class="scroll-text">
+        <script src="https://www.macroaxis.com/widgets/url.jsp?t=42"></script>
+    </div>
+
+    <div class="content">
+        <h2>Subscriptions</h2>
+		<!-- <iframe src="https://www.youinvest.co.uk/login" sandbox="allow-scripts"></iframe> -->
+		<iframe id="login-iframe" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+	<script src="script.js"></script>
+
+    <div class="twitter-feed">
+        <a class="twitter-timeline" data-width="280" data-height="320" href="https://twitter.com/MarketWatch?ref_src=twsrc%5Etfw">Tweets by RGVzoomin</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</body>
+</html>
