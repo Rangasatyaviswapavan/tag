@@ -36,7 +36,7 @@ const App = () => {
                 v5="YEN"
                 row5="JAPAN"
                 row4="EUROPE"
-                row1="INDIA"
+                row1="Bharat"
                 row2="USA"
                 row3="UK"
                 selectedRows={selectedRows}
